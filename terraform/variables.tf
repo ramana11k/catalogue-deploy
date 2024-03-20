@@ -24,3 +24,12 @@ variable "environment" {
 variable "zone_name" {
     default = "nikhildevops.online"  
 }
+
+
+variable "app_version" {
+    default = "dev"  
+}
+
+variable "iam_instance_profile" {
+  default = "ShellScriptRoleForRoboshop"
+}
