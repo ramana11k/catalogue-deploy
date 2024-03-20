@@ -32,6 +32,14 @@ pipeline {
                 """
             }
         }
+
+        stage('Init') {
+            steps {
+                sh """
+                   terraform init --backend-config=${params.environment}/backend.tf -reconfigure                   
+                """
+            }
+        }
     }
     
     // POST BUILD
