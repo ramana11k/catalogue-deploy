@@ -1,5 +1,5 @@
 
 bucket = "nikhils3-state-prod"
-key    = "multi"
+key    = "catalogue"
 region = "us-east-1"
 dynamodb_table = "nikhils3-locking-prod"
